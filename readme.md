@@ -10,7 +10,7 @@
 - [Publish package lên Packagist](#publish-package-to-packagist)
 - [Demo](#demo)
 
-## Tạo package(#create-package)
+## <a name="create-package">Tạo package</a>
 1. Một package sẽ có cấu trúc thư mục như sau <br>
    ![img_8.png](images/img_8.png) <br>
 2. Nội dung của package sẽ được đặt trong folder src <br>
@@ -22,8 +22,8 @@ composer init
 5. Ví dụ file composer <br>
    ![img_7.png](images/img_7.png) <br><br>
    Từ Laravel version 5.5, Laravel đã hỗ trợ package auto discover. Vì vậy chúng ta có thể thêm vào file composer.json để nó tự động map vào provider
-## Publish package lên Git(#publish-package-github)
-## Publish package lên Packagist(#publish-package-to-packagist)
+## <a name="publish-package-to-github">Publish package lên Git</a>
+## <a name="publish-package-to-packagist">Publish package lên Packagist</a>
 1. Tạo account trên Packagist (https://packagist.org/)
 2. Submit package mình mong muốn
    ![img_6.png](images/img_6.png)
@@ -32,7 +32,7 @@ composer init
 ```php
 composer require {package_name}
 ```
-## Demo(#demo)
+## <a name="demo">Demo</a>
 1. Tạo folder chứa package với cấu trúc thư mục như sau
    ![img_9.png](images/img_9.png) <br>
 2. Nội dung file composer.json 
