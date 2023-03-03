@@ -14,7 +14,7 @@
 1. Một package sẽ có cấu trúc thư mục như sau <br>
    ![img_8.png](images/img_8.png) <br>
 2. Nội dung của package sẽ được đặt trong folder src <br>
-3. Tạo file composer bằng command
+3. Tạo file composer.json bằng command
 ```php
 composer init
 ```
@@ -22,6 +22,7 @@ composer init
 5. Ví dụ file composer <br>
    ![img_7.png](images/img_7.png) <br><br>
    Từ Laravel version 5.5, Laravel đã hỗ trợ package auto discover. Vì vậy chúng ta có thể thêm vào file composer.json để nó tự động map vào provider
+   <br> *Lưu ý: Đặt tên namespace, class tuân theo chuẩn PSR-4 để laravel có thể tự autoload vào
 ## <a name="publish-package-to-github">Publish package lên Git</a>
 ## <a name="publish-package-to-packagist">Publish package lên Packagist</a>
 1. Tạo account trên Packagist (https://packagist.org/)
