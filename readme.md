@@ -49,10 +49,15 @@ composer require {package_name}
 ```php
 composer require greent/handle-array
 ```
+8. Example
 ```php
 $array = ['name' => 'Tai', 'email' => 'tainv.nta@gmail.com'];
 return \Greent\HandleArray\ArrayHelper::get($array, 'name');
 ```
+```php
+Tai
+```
+
 
 
 
