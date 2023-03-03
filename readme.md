@@ -53,9 +53,8 @@ composer require greent/handle-array
 ```php
 $array = ['name' => 'Tai', 'email' => 'tainv.nta@gmail.com'];
 return \Greent\HandleArray\ArrayHelper::get($array, 'name');
-```
-```php
-Kết quả: Tai
+
+=> Tai
 ```
 
 
