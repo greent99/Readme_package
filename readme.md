@@ -55,7 +55,7 @@ $array = ['name' => 'Tai', 'email' => 'tainv.nta@gmail.com'];
 return \Greent\HandleArray\ArrayHelper::get($array, 'name');
 ```
 ```php
-Tai
+Kết quả: Tai
 ```
 
 
