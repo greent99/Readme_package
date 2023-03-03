@@ -24,6 +24,7 @@ composer init
    Từ Laravel version 5.5, Laravel đã hỗ trợ package auto discover. Vì vậy chúng ta có thể thêm vào file composer.json để nó tự động map vào provider
    <br> *Lưu ý: Đặt tên namespace, class tuân theo chuẩn PSR-4 để laravel có thể tự autoload vào
 ## <a name="publish-package-to-github">Publish package lên Git</a>
+Push code package lên Git, tạo first release v1.0.0 cho package
 ## <a name="publish-package-to-packagist">Publish package lên Packagist</a>
 1. Tạo account trên Packagist (https://packagist.org/)
 2. Submit package mình mong muốn
