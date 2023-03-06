@@ -42,7 +42,9 @@ composer require {package_name}
 3. Tạo file ArrayHelper trong folder src
    ![img_11.png](images/img_11.png)
 4. Publish source lên Github
-   ![img_12.png](images/img_12.png)
+![img_12.png](images/img_12.png)
+Tạo first release <br>
+![img_18.png](images/img_18.png)
 5. Submit package trên Packagist
    ![img_13.png](images/img_13.png) 
 6. Connect account Packagist với Github để auto-update
@@ -54,7 +56,7 @@ composer require greent/handle-array
 8. Example
 ```php
 $array = ['name' => 'Tai', 'email' => 'tainv.nta@gmail.com'];
-return \Greent\HandleArray\ArrayHelper::get($array, 'name');
+echo \Greent\HandleArray\ArrayHelper::get($array, 'name');
 
 => Tai
 ```
