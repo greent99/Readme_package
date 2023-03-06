@@ -12,7 +12,7 @@
 
 ## <a name="create-package">Tạo package</a>
 1. Một package sẽ có cấu trúc thư mục như sau <br>
-   ![img_8.png](images/img_8.png) <br>
+   ![img.png](images/img_15.png) <br>
 2. Nội dung của package sẽ được đặt trong folder src <br>
 3. Tạo file composer.json bằng command
 ```php
@@ -20,7 +20,7 @@ composer init
 ```
 4. Điền các thông tin liên quan đến package: name, description, author v.v
 5. Ví dụ file composer <br>
-   ![img_7.png](images/img_7.png) <br><br>
+   ![img_1.png](images/img_16.png) <br><br>
    Từ Laravel version 5.5, Laravel đã hỗ trợ package auto discover. Vì vậy chúng ta có thể thêm vào file composer.json để nó tự động map vào provider
    <br> *Lưu ý: Đặt tên namespace, class tuân theo chuẩn PSR-4 để laravel có thể tự autoload vào
 ## <a name="publish-package-to-github">Publish package lên Git</a>
@@ -39,7 +39,7 @@ composer require {package_name}
    ![img_9.png](images/img_9.png) <br>
 2. Nội dung file composer.json 
    ![img_10.png](images/img_10.png)
-3. Tạo file ArrayHelper trong folder src
+3. Trong folder src tạo class ArrayHelper
    ![img_11.png](images/img_11.png)
 4. Publish source lên Github
 ![img_12.png](images/img_12.png)
